@@ -2,8 +2,7 @@
 
 - [Overview](#overview)
   - The challenge is to build out this qr-code and get it looking as close to the design as possible.
-  - 
-  - [Links](#links)
+  
 - My process: It took me 3 days to build this.
   - Built with: HTML5 and CSS3.
   - What I learned: I've learned how to use position, and more about mobile first. 
