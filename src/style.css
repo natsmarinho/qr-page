@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+*{
+    background-color: #D5E1EF;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container{
+    background: #fff;
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    top: 7rem;
+    left: 2rem;
+    width: 22rem;
+    
+    height: 35rem;
+    border-radius: 20px;
+    box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+    margin-bottom: 4rem;
+    z-index: -2;
+}
+
+.qr-container{
+    background-color: #2C7DFA;
+    ;
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    top: 1rem;
+    left: 1rem;
+    border-radius: 10px;
+    
+}
+
+.circle-up{
+    position: absolute;
+    background: transparent;
+    z-index: 1;
+    border-radius: 5% 0 0 0;
+}
+
+.circle-down{
+    position: absolute;
+    background: transparent;
+    z-index: 1;
+    top: 13.6rem;
+    left: 8rem;
+    width: 12rem;
+    border-radius: 0 0 6% 0;
+}
+
+
+.qr-img{
+    top: 5rem;
+    left: 5rem;
+    position: absolute;
+    background: transparent;
+    z-index: 3;
+}
+
+.info-container{
+    position: relative;
+    top: 22rem;
+    background-color: #fff;
+    width: 18.5rem;
+    left: 2rem;
+}
+
+.info-container h1{
+    font-weight: 700;
+    font-size: 1.6rem;
+    background-color: #fff;
+    text-align: center;
+    color: #1F314F;
+}
+
+.info-container p{
+    font-weight: 400;
+    background-color: #fff;
+    text-align: center;
+    color: #7D889E;
+    font-size: 1.2rem;
+    padding-top: 2rem;
+}
+
+@media screen and (max-width: 413px){
+   .container{
+       width: 20rem;
+       padding-bottom: 2rem;
+   }
+
+   .qr-container{
+       width: 18rem;
+   }
+
+   .qr-img{
+       left: 4rem;
+   }
+
+   .circle-down{
+       position: absolute;
+       left: 6rem;
+   }
+
+   .info-container{
+       width: 17rem;
+       position: absolute;
+       left: 1rem;
+   }
+}
+
+@media screen and (min-width: 700px){
+    .container{
+        left: 14rem;
+        top: 15rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .container{
+        left: 20rem;
+        top: 20rem;
+    }
+}
+
+@media  screen and (min-width: 1280px){
+    .container{
+        left: 30rem;
+        top: 10rem;
+    }
+
+    .circle-down{
+        top: 13.5rem;
+    }
+}
