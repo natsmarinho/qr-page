@@ -1,37 +1,24 @@
-## Table of contents
+<h1 align='center'>QR-PAGE</h1> 
 
-- [Overview](#overview)
-  - The challenge is to build out this qr-code and get it looking as close to the design as possible.
-  
-- My process: It took me 3 days to build this.
-  - Built with: HTML5 and CSS3.
-  - What I learned: I've learned how to use position, and more about mobile first. 
-- Author: Natali Marinho. 
+<p align="center">
+   <img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
+</p>
 
-### The challenge
+> Status do Projeto: :heavy_check_mark: concluído
 
-Users should be able to:
+## Descrição do projeto 
 
-- View the optimal layout for the app depending on their device's screen size 
+<p align="justify">
+Projeto com intuito de reforçar aprendizado em flexbox e responsividade.
+</p>
 
-### Screenshot
+## Deploy da Aplicação :dash:
 
-![](./src/imagens/desktop-screen.png)
-![](./src/imagens/mobile-screen.png)
+> Link do deploy da aplicação: https://natsmarinho.github.io/qr-page/
 
-### Built with
+## Autora
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Position
-- Mobile-first workflow
-
-## Author
 - Frontend Mentor - [@natsmarinho](https://www.frontendmentor.io/profile/natsmarinho)
 - Twitter - [@natsmarinho](https://www.twitter.com/natsmarinho)
 - Instagram - [@natsmarinho](https://www.instagram.com/natsmarinho/)
-- Linkedin - [@natsmarinho](https://www.linkedin.com/in/natsmarinho)
-
-## Acknowledgments
-
-I want to thank to my mentor Carlos Henrique for being a rather good and patient master. 
+- LinkedIn - [natsmarinho](https://www.linkedin.com/in/natsmarinho/)
